@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>SP Micro - envie sua mensagem</title>
+<script language="JavaScript">
+function check(){
+var cont=0, fim=0, busca, letra, xa;
+form.realname.value = form.nome.value;
+if(form.nome.value==""){alert("Favor preecher o campo Nome");return false;}
+if(form.email.value==""){alert("Favor preencher o campo E-mail");return false;}
+	busca = form.email.value;
+	fim = busca.length;
+	for(cont=0;cont<fim;cont++){
+	    letra = busca.charAt(cont); 
+		if(letra == "@"){xa = "ok";}
+		}
+		if(xa != "ok"){alert("E-mail invalido"); return false;}
+return true;
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p align="left"><img src="/images/logometal2.jpg" width="600" height="113"></p>
+<form name="form1" method="POST" action="http://www.spmicro.com.br/_vti_bin/shtml.dll/contato.html" webbot-action="--WEBBOT-SELF--">
+   <!--webbot bot="SaveResults" S-Email-Format="TEXT/PRE"
+  S-Email-Address="seu_cliente@your_domain.com" B-Email-Label-Fields="TRUE"
+  S-Date-Format="%d-%m-%Y" S-Time-Format="%H:%M:%S"
+  S-Builtin-Fields="REMOTE_NAME REMOTE_USER HTTP_USER_AGENT Date Time" startspan --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot bot="SaveResults" endspan i-checksum="43374" -->
+  <input type=hidden name="recipient" value="info@spmicro.com.br">
+  <input type=hidden name="redirect" value="obrigado.htm">
+  <input type=hidden name="subject" value="Site">
+  <table width="75%" border="0">
+    <tr> 
+      <td width="10%"><font face="Verdana, Arial, Helvetica, sans-serif">Nome:</font></td>
+      <td width="17%"><b> <font face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="text" name="nome" size="30">
+        </font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif"> </font></td>
+    </tr>
+    <tr> 
+      <td width="10%"><font face="Verdana, Arial, Helvetica, sans-serif">E-mail:</font></td>
+      <td width="17%"> <font face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="text" name="email" size="30">
+        </font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif">Telefone: 
+        <input type="text" name="telefone" size="16">
+        </font></td>
+    </tr>
+    <tr> 
+      <td width="10%"><font face="Verdana, Arial, Helvetica, sans-serif">Cidade:</font></td>
+      <td> <font face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="text" name="cidade" size="30">
+        </font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif">Estado: 
+        <select size=1 name=estado>
+          <option value ="0"> </option>
+          <option value=1>AC</option>
+          <option value=2>AL</option>
+          <option value=3>AM</option>
+          <option value=4>AP</option>
+          <option value=5>BA</option>
+          <option value=6>CE</option>
+          <option value=7>DF</option>
+          <option value=8>ES</option>
+          <option value=9>GO</option>
+          <option value=10>MA</option>
+          <option value=11>MG</option>
+          <option value=12>MS</option>
+          <option value=13>MT</option>
+          <option value=14>PA</option>
+          <option value=15>PB</option>
+          <option value=16>PE</option>
+          <option value=17>PI</option>
+          <option value=18>PR</option>
+          <option value=19>RJ</option>
+          <option value=20>RN</option>
+          <option value=21>RO</option>
+          <option value=22>RR</option>
+          <option value=23>RS</option>
+          <option value=24>SC</option>
+          <option value=25>SE</option>
+          <option value=26 selected>SP</option>
+          <option value=27>TO</option>
+        </select>
+        </font></td>
+    </tr>
+    <tr> 
+      <td width="10%"><font face="Verdana, Arial, Helvetica, sans-serif">Assunto:</font></td>
+      <td colspan="2"> <font face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="radio" name="tipo" value="projetos" checked>
+        projetos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <input type="radio" name="tipo" value="equipamentos">
+        equipamentos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <input type="radio" name="tipo" value="informacoes">
+        informa&ccedil;&otilde;es</font></td>
+    </tr>
+    <tr> 
+      <td width="10%"><font face="Verdana, Arial, Helvetica, sans-serif">Mensagem:</font></td>
+      <td colspan="2"> <font face="Verdana, Arial, Helvetica, sans-serif"> 
+        <textarea name="mensagem" cols="60"></textarea>
+        </font></td>
+    </tr>
+    <tr> 
+      <td colspan="3"> 
+        <p>&nbsp;</p>
+        <p> 
+          <input type="submit" name="Enviar" value="Enviar">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          <input type="reset" name="Limpar" value="Limpar">
+        </p>
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

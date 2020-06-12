@@ -1,0 +1,219 @@
+princ12.swf Movie Report
+-------------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          15825          15825    loader (AS 1.0 Classes Export Frame)
+      2           1890          17715    
+      3             13          17728    
+      4          47724          65452    menu1
+      5          70663         136115    empresa
+      6              1         136116    
+      7              1         136117    
+      8              1         136118    
+      9              1         136119    
+     10              1         136120    
+     11              1         136121    
+     12              1         136122    
+     13              1         136123    
+     14              1         136124    
+     15              1         136125    
+     16              1         136126    
+     17              1         136127    
+     18             11         136138    
+     19             11         136149    
+     20           1205         137354    
+     21             11         137365    
+     22          34416         171781    
+     23            121         171902    assist
+     24              1         171903    
+     25              1         171904    
+     26              1         171905    
+     27              1         171906    
+     28              1         171907    
+     29              1         171908    
+     30              1         171909    
+     31              1         171910    
+     32              1         171911    
+     33              1         171912    
+     34              1         171913    
+     35              1         171914    
+     36             11         171925    
+     37             11         171936    
+     38           1061         172997    
+     39             55         173052    
+     40            625         173677    
+     41            118         173795    equip
+     42              1         173796    
+     43              1         173797    
+     44              1         173798    
+     45              1         173799    
+     46              1         173800    
+     47              1         173801    
+     48              1         173802    
+     49              1         173803    
+     50              1         173804    
+     51              1         173805    
+     52              1         173806    
+     53              1         173807    
+     54             11         173818    
+     55             11         173829    
+     56            432         174261    
+     57            143         174404    
+     58           2354         176758    
+     59            128         176886    contato
+     60              1         176887    
+     61              1         176888    
+     62              1         176889    
+     63              1         176890    
+     64              1         176891    
+     65              1         176892    
+     66              1         176893    
+     67              1         176894    
+     68              1         176895    
+     69              1         176896    
+     70              1         176897    
+     71              1         176898    
+     72             11         176909    
+     73             11         176920    
+     74            792         177712    
+     75            110         177822    
+     76            641         178463    
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+loader                               581           360                   957
+menu1                                  0            64                    37
+empresa                                0            78                   131
+assist                                 0           120                    91
+equip                                  0           229                   124
+contato                                0           300                    91
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+bt som                                33           108                     0
+cx de som                            178             0                     0
+Tween 7                                0            80                     0
+Tween 6                                0             0                     0
+Tween 3                                0             0                     0
+Tween 1                                0             0                     0
+empre                                  0             0                     0
+empre copy                             0             0                     0
+empresa                                0            78                   131
+clicadoa                               0             0                     6
+Clicado                               74             0                     0
+Luz1a                                  0             0                     1
+Luz2                                  59             0                     0
+luz1                                  64             0                     0
+Symbol 63                              0             0                     6
+Symbol 62                              0            92                     0
+Symbol 61                              0             0                     1
+Symbol 60                              0           313                    32
+MAIIL                                256            37                     0
+Equip                                  0             0                     1
+Entra equipamento                      0           309                     0
+borda                                 64             0                     0
+raio x                                91             0                     0
+fuf                                    0             0                     0
+tex emp ent                            0             0                     1
+tex asis ent                           0             0                     1
+Texto Entra emp                        0          1092                     0
+Texto Entra asist                      0           931                     0
+botao                                230             0                     0
+Radar1                                39             0                     0
+Tween 2                                0             0                     0
+Radar                                 81             0                     0
+Entrada Radar                          0             0                     6
+Entra Linhas                           0             0                     1
+Linhas                               231             0                     0
+fundo empresa                          0             0                     0
+Morph Vidro1                         442             0                     1
+Symbol 11                             85             0                     0
+Symbol 8                               0            47                     0
+Symbol 7                               0            45                     0
+Symbol 5                               0            42                     0
+som                                    0             0                     0
+vidro1                                 0             0                     0
+Botao Vermelho                       323             0                     0
+loader                               581           360                   957
+NUMEROS                                0           184                     0
+bola                                   0             0                     0
+bola interna                          78             0                     0
+Symbol 1                             145             0                     0
+bolinha verde                        151             0                     0
+logo                                 176             0                     0
+Symbol 6                               0            55                     0
+azul                                  32             0                     0
+Tween 4                                0             0                     0
+Tween 5                                0            54                     0
+Symbol 2                               0             0                     0
+
+
+Tweened Shapes: 265 bytes
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+MicrosoftSansSerif             1200     ACEIMNOPQSTU
+ArialMT                        5284     23456789ACDEHIMOPRSTWabcdegilmnopqrstuwéê
+Tahoma-Bold Bold               8434     %(),-.0123456789:;@ABELMPSTabcdefghiklmnopqrstuvwxyzáãçéêóõ
+
+ActionScript Bytes    Location
+------------------    --------
+                 6    Symbol 63:Layer 1:20
+               671    loader:Layer 9:1:bola1(bola)
+               274    loader:Layer 6:2
+                 6    loader:loadbar mask:12
+                 6    loader:Layer 6:3
+                 1    menu1:Actions:1
+                 1    Luz1a:Layer 1:6
+                 6    clicadoa:Layer 1:6
+                 9    menu1:Botoes:1:No instance name assigned(Botao Vermelho)
+                 9    menu1:Botoes:1:No instance name assigned(Botao Vermelho)
+                 9    menu1:Botoes:1:No instance name assigned(Botao Vermelho)
+                 9    menu1:Botoes:1:No instance name assigned(Botao Vermelho)
+                 1    Entra Linhas:Layer 1:10
+                 1    Morph Vidro1:Layer 1:10
+                 1    tex emp ent:Layer 1:5
+                 1    empresa:Botoes:18
+                 6    Entrada Radar:Layer 2:100
+                40    empresa:Radar:18:No instance name assigned(bt som)
+                30    empresa:Botoes:18:No instance name assigned(Botao Vermelho)
+                30    empresa:Botoes:18:No instance name assigned(Botao Vermelho)
+                30    empresa:Botoes:18:No instance name assigned(Botao Vermelho)
+                 1    tex asis ent:Layer 3:5
+                 1    assist:Acoes:18
+                30    assist:Botoes:18:No instance name assigned(Botao Vermelho)
+                30    assist:Botoes:18:No instance name assigned(Botao Vermelho)
+                30    assist:Botoes:18:No instance name assigned(Botao Vermelho)
+                 1    Equip:Layer 1:5
+                 1    equip:Acoes:18
+                33    equip:Layer 19:18:No instance name assigned(MAIIL)
+                30    equip:Botoes:18:No instance name assigned(Botao Vermelho)
+                30    equip:Botoes:18:No instance name assigned(Botao Vermelho)
+                30    equip:Botoes:18:No instance name assigned(Botao Vermelho)
+                32    Symbol 60:Layer 1:1:No instance name assigned(MAIIL)
+                 1    Symbol 61:Layer 1:5
+                 1    contato:Acoes:18
+                30    contato:Botoes:18:No instance name assigned(Botao Vermelho)
+                30    contato:Botoes:18:No instance name assigned(Botao Vermelho)
+                30    contato:Botoes:18:No instance name assigned(Botao Vermelho)
+
+Bitmap                     Compressed    Compression
+-----------------------    ----------  --------  -----------
+fundomenu3.jpg                 41152     1920000   Imported JPEG=102
+fundomenu4.jpg                 20100     1920000   Imported JPEG=102
+fundobrilho                    48170     1390464   JPEG Quality=73
+raiox                          26142      787600   JPEG Quality=73
+
+Event Sounds: 11KHz Mono 16 kbps MP3
+
+
+Sound name                 Bytes        Format    
+-----------------------    ---------    ----------
+ping                         4375         5KHz Mono 16 kbps MP3
+fxhit06-02                   1471        11KHz Mono 16 kbps MP3
+fxhit06-04                    639        11KHz Mono 16 kbps MP3
+
+
+
+
